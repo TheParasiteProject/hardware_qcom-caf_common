@@ -1611,6 +1611,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear.
          <instance>default</instance>
     </interface>
     </hal>
+
     <!-- UMD Adaptor Service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.umd</name>
@@ -1618,6 +1619,21 @@ SPDX-License-Identifier: BSD-3-Clause-Clear.
         <version>1.0</version>
         <interface>
             <name>IUMDAdaptor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.qti.vst</name>
+        <interface>
+            <name>ICameraVstSys</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ICameraVstSysFactory</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ICameraVstSysCallback</name>
             <instance>default</instance>
         </interface>
     </hal>
