@@ -192,7 +192,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear.
     </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.nfc</name>
-        <version>1.0</version>
+        <version>1.0-2</version>
         <interface>
             <name>INfc</name>
             <instance>default</instance>
